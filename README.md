@@ -53,4 +53,4 @@ Make a package request at <http://dev.getsol.us/>
 
 ## A problem ?
 
-Please fill a report [here](https://gitlab.com/Solus_PT/solus-personal-repo/issues)
+Please fill a report [here](https://github.com/Christoph3PT/solus-personal-repo/issues)
