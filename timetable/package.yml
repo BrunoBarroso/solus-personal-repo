@@ -1,0 +1,22 @@
+name       : timetable
+version    : 1.0.6
+release    : 1
+source     :
+    - https://github.com/lainsce/timetable/archive/1.0.6.tar.gz : f7ceabb1d73b125c436d75abfa43e0a559ef9a770c079107df5986a563505ca9
+license    : GPL-3.0-or-later
+component  : office
+summary    : Plot out your own timetable for the week and organize it
+description: |
+    Plot out your own timetable for the week and organize it
+builddeps  :
+            - pkgconfig(granite)
+            - pkgconfig(gtk+-3.0)
+            - pkgconfig(json-glib-1.0)
+            - meson
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

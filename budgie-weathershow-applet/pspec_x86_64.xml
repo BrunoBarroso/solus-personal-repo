@@ -1,0 +1,248 @@
+<PISI>
+    <Source>
+        <Name>budgie-weathershow-applet</Name>
+        <Packager>
+            <Name>Christophe Silva</Name>
+            <Email>Christophesilva@tutamail.com</Email>
+        </Packager>
+        <License>GPL-3.0-or-later</License>
+        <PartOf>budgie.desktop</PartOf>
+        <Summary xml:lang="en">WeatherShowII is a completely rewritten version of the existing python WeatherShow applet</Summary>
+        <Description xml:lang="en">WeatherShowII is a completely rewritten version of the existing python WeatherShow applet. It merges the functionality of Budgie Weather applet (showing weather in the panel) and WeatherShow. Each of the modules: weather forecast, weather in the panel and weather on the desktop can be switched on and of.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>budgie-weathershow-applet</Name>
+        <Summary xml:lang="en">WeatherShowII is a completely rewritten version of the existing python WeatherShow applet</Summary>
+        <Description xml:lang="en">WeatherShowII is a completely rewritten version of the existing python WeatherShow applet. It merges the functionality of Budgie Weather applet (showing weather in the panel) and WeatherShow. Each of the modules: weather forecast, weather in the panel and weather on the desktop can be switched on and of.
+</Description>
+        <PartOf>budgie.desktop</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/App.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/AppButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/AppLauncher.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/AppLauncher.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/AppLauncherApplet.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/ArrowButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/DirectionalButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/EditButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/Error.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/FilterHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/JsonHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/LocaleHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/Log.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/MenuButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/PanelButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/SelectButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-app-launcher/SortHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-clockworks/BudgieClockWorks.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-clockworks/budgie_clockworks.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-clockworks/cwtools.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-countdown/CountDown.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-countdown/budgie-countdown.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-dropby/BudgieDropBy.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-dropby/budgie_dropby.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-dropby/copy_flash</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-dropby/dropby_tools.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-hotcorners/HotCorners.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-hotcorners/libhotcorners.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-kangaroo/BudgieKangaroo.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-kangaroo/budgie_kangaroo.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch/KeyboardAutoSwitch.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-keyboard-autoswitch/budgie-keyboard-autoswitch.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-quicknote/QuickNoteApplet.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-quicknote/libquicknoteapplet.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-recentlyused/BudgieRecentlyUsed.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-recentlyused/libbudgie-recentlyused.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-rotation-lock/BudgieRotationLock.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-rotation-lock/budgie_rotation_lock.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-showtime/ShowTime.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-showtime/libbudgieshowtime.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-showtime/showtime_desktop</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-takeabreak/BudgieTakeaBreak.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-takeabreak/budgie_takeabreak.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-takeabreak/message_window</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-takeabreak/takeabreak_run</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-trash/Trash.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-trash/libtrash.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/WeatherShow.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/cities</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/desktop_weather</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/get_color</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/libweathershow.so</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/200d-thunderstorm-with-light-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/200n-thunderstorm-with-light-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/201d-thunderstorm-with-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/201n-thunderstorm-with-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/202d-thunderstorm-with-heavy-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/202n-thunderstorm-with-heavy-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/210d-light-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/210n-light-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/211d-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/211n-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/212d-heavy-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/212n-heavy-thunderstorm.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/230d-thunderstorm-with-light-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/230n-thunderstorm-with-light-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/300d-light-intensity-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/300n-light-intensity-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/311d-drizzle-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/311n-drizzle-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/313d-shower-rain-and-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/313n-shower-rain-and-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/314d-shower-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/314n-shower-drizzle.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/500d-light-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/500n-light-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/501d-moderate-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/501n-moderate-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/511d-freezing-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/511n-freezing-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/520d-light-intensity-shower-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/520n-light-intensity-shower-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/521d-shower-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/521n-shower-rain.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/600d-light-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/600n-light-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/601d-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/601n-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/602d-heavy-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/602n-heavy-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/611d-sleet.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/611n-sleet.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/612d-shower-sleet.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/612n-shower-sleet.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/615d-light-rain-and-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/615n-light-rain-and-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/616d-rain-and-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/616n-rain-and-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/620d-light-shower-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/620n-light-shower-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/621d-shower-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/621n-shower-snow.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/701d-mist.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/701n-mist.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/771d-squalls.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/771n-squalls.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/781d-tornado.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/781n-tornado.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/800d-clear-sky.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/800n-clear-sky.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/801d-few-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/801n-few-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/802d-scattered-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/802n-scattered-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/803d-broken-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/803n-broken-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/804d-overcast-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/804n-overcast-clouds.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-weathershow/weather_icons/error_icon.svg</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/WMover.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/budgie-wmover.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/moverbar</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/set_keys.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/wmover_panelrunner</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/wmover_run</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wmover/wmovertools.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/WPrviews.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/budgie-wprviews.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/moveto.sh</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/set_keys.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprv</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprv_hc</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_backgrounder</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_panelrunner</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_tools.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wprviews/wprviews_window</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wsoverview/WsOverview.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wsoverview/budgie-wsoverview.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wsoverview/wsotools.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wswitcher/BudgieWSwitcher.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wswitcher/budgie_wswitcher.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wswitcher/wswitcher_panelrunner</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-wswitcher/wswitcher_run</Path>
+            <Path fileType="data">/usr/share/budgie-desktop/plugins/budgie-wprviews/pics/grey_x.png</Path>
+            <Path fileType="data">/usr/share/budgie-desktop/plugins/budgie-wprviews/pics/prv_grey.png</Path>
+            <Path fileType="data">/usr/share/budgie-desktop/plugins/budgie-wprviews/pics/prv_white.png</Path>
+            <Path fileType="data">/usr/share/budgie-desktop/plugins/budgie-wprviews/pics/white2_x.png</Path>
+            <Path fileType="data">/usr/share/budgie-desktop/plugins/budgie-wprviews/pics/white_x.png</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-clockworks.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-hotcorners.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-recentlyused.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-showtime.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wpreviews.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.budgie-wsoverview.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.quicknote.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.takeabreak.gschema.xml</Path>
+            <Path fileType="data">/usr/share/glib-2.0/schemas/org.ubuntubudgie.plugins.weathershow.gschema.xml</Path>
+            <Path fileType="localedata">/usr/share/locale/ca/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/en_GB/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/es/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/fr/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/lt/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="localedata">/usr/share/locale/nl_NL/LC_MESSAGES/budgie-extras.mo</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-app-launcher-applet-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-app-launcher-edit-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-clockworks-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-countdown-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-dropby-idle.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-dropby-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-foldertrack-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-hotcorners-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-keyboard-autoswitch-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-quicknote-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-rotation-button-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-rotation-lock-button-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-trash-empty-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-trash-full-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-trash-restore-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-wmover-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-wprviews-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-wsoverview-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-wsw-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/budgie-wticon-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/cr_green.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/cr_grey.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/cr_red.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/cr_spacer.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/cr_yellow.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/showtimenew-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/takeabreak-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/takeabreakpaused-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws1-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws10-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws11-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws12-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws13-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws14-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws15-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws16-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws17-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws18-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws19-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws2-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws20-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws21-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws22-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws23-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws24-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws3-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws4-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws5-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws6-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws7-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws8-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/ws9-symbolic.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-03-24</Date>
+            <Version>0.8.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Christophe Silva</Name>
+            <Email>Christophesilva@tutamail.com</Email>
+        </Update>
+    </History>
+</PISI>

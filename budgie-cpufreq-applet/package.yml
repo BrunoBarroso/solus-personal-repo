@@ -1,0 +1,23 @@
+name       : budgie-cpufreq-applet
+version    : 1.0.1
+release    : 1
+source     :
+    - https://github.com/Dirli/budgie-cpufreq-applet/archive/v1.0.1.tar.gz : ed3acfb854accc46d2b36c7542a73f0cf2f47c32d951446d59416fc244a48cb5
+license    : GPL-2.0-or-later
+component  : budgie.desktop
+summary    : A budgie-desktop applet to control the frequency of the processor (Sandy Bridge and newer). 
+description: |
+    A budgie-desktop applet to control the frequency of the processor (Sandy Bridge and newer). Applet can manage intel_pstate driver (turbo boost, CPU frequency scaling, governor).
+builddeps  :
+            - pkgconfig(budgie-1.0)
+            - pkgconfig(glib-2.0)
+            - pkgconfig(libpeas-1.0)
+            - pkgconfig(pygobject-2.0)
+            - pkgconfig(polkit-gobject-1)
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

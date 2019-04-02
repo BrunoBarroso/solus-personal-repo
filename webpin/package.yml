@@ -1,0 +1,22 @@
+name       : webpin
+version    : 1.0.3
+release    : 1
+source     :
+    - https://github.com/artemanufrij/webpin/archive/1.0.3.tar.gz : 18048c91ae8d0c88b13347cc9ab05f441bc6900985040e87278e9dad5b7dfe0d
+license    : GPL-3.0-or-later
+component  : multimedia.internet
+summary    : A simple app to pin websites on the desktop
+description: |
+    A simple app to pin websites on the desktop
+builddeps  :
+            - pkgconfig(gtk+-3.0)
+            - pkgconfig(granite)
+            - pkgconfig(webkit2gtk-4.0)
+            - meson
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

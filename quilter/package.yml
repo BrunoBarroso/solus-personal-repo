@@ -1,0 +1,25 @@
+name       : quilter
+version    : 1.8.1
+release    : 1
+source     :
+    - https://github.com/lainsce/quilter/archive/1.8.1.tar.gz : 1f66dae50a98c49fc9091d56dc838b307c70be829a4fecb351f4f36020839497
+license    : GPL-3.0-or-later
+component  : editor
+summary    : Focus on your writing.
+description: |
+    Focus on your writing.
+builddeps  :
+            - pkgconfig(granite)
+            - pkgconfig(gtk+-3.0)
+            - pkgconfig(gtksourceview-3.0)
+            - pkgconfig(libmarkdown)
+            - pkgconfig(webkit2gtk-4.0)
+            - pkgconfig(gtkspell3-3.0)
+            - meson
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

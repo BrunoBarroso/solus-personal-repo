@@ -1,0 +1,21 @@
+name       : budgie-trash-applet
+version    : 1
+release    : 1
+source     :
+    - git|https://github.com/EbonJaeger/budgie-trash-applet.git : e55af6b36a04418a9f85e59df052c04a025791b4
+license    : GPL-2.0-or-later
+component  : budgie.desktop
+summary    : Budgie applet to manage trash.
+description: |
+    Manage items in your trash bin right from the Budgie panel.
+builddeps  :
+            - pkgconfig(budgie-1.0)
+            - pkgconfig(glib-2.0)
+            - pkgconfig(gtk+-3.0)
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

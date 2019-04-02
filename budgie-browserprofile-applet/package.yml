@@ -1,0 +1,22 @@
+name       : budgie-browserprofile-applet
+version    : 1
+release    : 1
+source     :
+    - git|https://github.com/serdarsen/budgie-browser-profile-launcher.git : 03d6776920c0103a0f4d462b57f9da0435ec7822
+license    : GPL-2.0-or-later
+component  : budgie.desktop
+summary    : Budgie applet to manage browser profiles
+description: |
+    Manage items in your trash bin right from the Budgie panel.
+builddeps  :
+            - pkgconfig(budgie-1.0)
+            - pkgconfig(glib-2.0)
+            - pkgconfig(gtk+-3.0)
+            - pkgconfig(python3)
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

@@ -1,0 +1,36 @@
+name       : elementary-calendar
+version    : 5.0
+release    : 1
+source     :
+    - https://github.com/elementary/calendar/archive/5.0.tar.gz : f47bae213163ec87c2e4f2c0563a40be8cf080cab70094a6a4f41936803fb3fa
+license    : GPL-2.0-or-later
+component  : office
+summary    : Desktop calendar app designed for elementary OS
+description: |
+    Desktop calendar app designed for elementary OS
+builddeps  :
+    - pkgconfig(champlain-0.12)
+    - pkgconfig(champlain-gtk-0.12)
+    - pkgconfig(clutter-1.0)
+    - pkgconfig(clutter-gtk-1.0)
+    - pkgconfig(folks)
+    - pkgconfig(gdk-pixbuf-2.0)
+    - pkgconfig(gee-0.8)
+    - pkgconfig(geocode-glib-1.0)
+    - pkgconfig(granite)
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libedataserver-1.2)
+    - pkgconfig(libedataserverui-1.2)
+    - pkgconfig(libecal-1.2)
+    - pkgconfig(libgeoclue-2.0)
+    - pkgconfig(libical)
+    - pkgconfig(libnotify)
+    - pkgconfig(libsoup-2.4)
+    - cmake
+    - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

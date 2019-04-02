@@ -1,0 +1,23 @@
+name       : palaura
+version    : 1.0.5
+release    : 1
+source     :
+    - https://github.com/lainsce/palaura/archive/1.0.5.tar.gz : f975ff2447a0f877aa4e03a6c67604e46fe24fc37dbdaf5ca5c184d588142b48
+license    : GPL-3.0-or-later
+component  : office
+summary    : Find any word's definition with this handy dictionary
+description: |
+    Find any word's definition with this handy dictionary
+builddeps  :
+            - pkgconfig(granite)
+            - pkgconfig(gtk+-3.0)
+            - pkgconfig(libsoup-2.4)
+            - pkgconfig(json-glib-1.0)
+            - meson
+            - vala
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install

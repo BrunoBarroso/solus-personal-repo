@@ -1,0 +1,53 @@
+<PISI>
+    <Source>
+        <Name>budgie-browserprofile-applet</Name>
+        <Packager>
+            <Name>Christophe Silva</Name>
+            <Email>Christophesilva@tutamail.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>budgie.desktop</PartOf>
+        <Summary xml:lang="en">Budgie applet to manage browser profiles</Summary>
+        <Description xml:lang="en">Manage items in your trash bin right from the Budgie panel.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>budgie-browserprofile-applet</Name>
+        <Summary xml:lang="en">Budgie applet to manage browser profiles</Summary>
+        <Description xml:lang="en">Manage items in your trash bin right from the Budgie panel.
+</Description>
+        <PartOf>budgie.desktop</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/BrowserProfileLauncher.plugin</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/BrowserProfileLauncher.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/helpers/JsonHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/helpers/LocalStateHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/helpers/PopenHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/helpers/SortHelper.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/log/Error.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/log/Log.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/models/Browser.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/models/Profile.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/widgets/Dialog.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/widgets/DirectionalButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/widgets/LauncherButton.py</Path>
+            <Path fileType="library">/usr/lib64/budgie-desktop/plugins/budgie-browser-profile-launcher/widgets/ListView.py</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-1-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-2-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-add-new-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-butterfly-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-delete-symbolic.svg</Path>
+            <Path fileType="data">/usr/share/pixmaps/browser-profile-launcher-incognito-symbolic.svg</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-03-23</Date>
+            <Version>1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Christophe Silva</Name>
+            <Email>Christophesilva@tutamail.com</Email>
+        </Update>
+    </History>
+</PISI>
