@@ -1,14 +1,14 @@
 # THIS REPOSITORY IS FOR PERSONAL PURPOSE ONLY - THE PACKAGES ARE MAINTAINED BUT STILL A RISK AS IT IS NOT AN OFICIAL SOLUS REPOSITORY ;-)
 
 
-Solus_PT 3rd Party Repo
-======
+Solus Personal Repo
+====================
 
 *These packages are not officials, so not reviewed or supported by the Solus team.*
 
 ## Adding the repo
 
-`sudo eopkg add-repo SolusPT https://gitlab.com/Solus_PT/solus-personal-repo/raw/master/packages/eopkg-index.xml.xz`
+`sudo eopkg add-repo SolusPT https://github.com/Christoph3PT/solus-personal-repo/raw/master/packages/eopkg-index.xml.xz`
  
 ## Enabling the Repository
 
@@ -39,8 +39,6 @@ Make a package request at <http://dev.getsol.us/>
 | budgie-browserprofile-applet | Applet that lets you use more than one profile in chrome/chromium based browsers |  
 | budgie-cpufreq-applet | Applet that lets you see/change the frequency of your cpu                        | 
 | budgie-trash-applet   | Applet like the name says, shows a trash button where its possible to restore/delete your trash | 
-| budgie-weathershow-applet | New weather applet made by ubuntu budgie team where is possible to use tray icon / desktop conky or both at the same time   | 
-| elementary-calendar | Another calendar app made by elementary team |
 | eradio | Radio app very simplistic but very usefull |
 | palaura | Dictionary app made for elementary (Languages English/Spanish) |
 | playmymusic | Music player made for elementary with very cool features |
