@@ -1,3 +1,6 @@
+<img src="https://github.com/Christoph3PT/solus-personal-repo/raw/master/solus.jpg" width="949" height="500" />
+
+
 # THIS REPOSITORY IS FOR PERSONAL PURPOSE ONLY - THE PACKAGES ARE MAINTAINED BUT STILL A RISK AS IT IS NOT AN OFICIAL SOLUS REPOSITORY ;-)
 
 
