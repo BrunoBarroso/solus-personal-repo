@@ -52,7 +52,7 @@ Make a package request at <http://dev.getsol.us/>
 | qomui  | OpenVPN Gui with advanced features and support for multiple providers (protonvpn - wireguard - etc etc )
 | bleachbit | BleachBit deletes unnecessary files to free valuable disk space, maintain privacy, and remove junk. (version 2.2)
 | optimizer | Find out what's eating up your system resources and delete unnecessary files from your disk.
-
+| Wps-Office| The new Wps Office 2019! To install it enter the folder "extras" and follow the guide :)
 
 ## A problem ?
 
