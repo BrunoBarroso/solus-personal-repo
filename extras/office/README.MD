@@ -1,4 +1,5 @@
-<img src="https://github.com/Christoph3PT/solus-personal-repo/edit/master/extras/office/WpsOffice-2019(1).png" width="600" height="500" />
+<h2>WPS OFFICE 2019 v11.1.0.8372</h2>
+<img src=https://www.downloadsoft.net/wp-content/uploads/2018/02/WPS-Office-10.2-Free-1-700x335.jpg />
 
 
 ======
@@ -12,7 +13,6 @@
 
  <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/install-wpsoffice.sh && sudo bash install-wpsoffice.sh
 </code>
-WpsOffice-2019(2).png
  
 ======
 
@@ -21,12 +21,6 @@ WpsOffice-2019(2).png
  <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/traduzir_PT_BR.sh && sudo bash traduzir_PT_BR.sh
 </code>
  
- <H5>[ CLICA EM CIMA DA IMAGEM PARA VERES O TUTORIAL ]</H5>
-<video autoplay="autoplay" loop="loop" width="400" height="300">
-<source src="https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/Lingua_BR/Tutorial_Instala%C3%A7%C3%A3o_BR.gif" type="video/mp4" />
-<img src="https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/WpsOffice-2019(2).png" width="949" height="500" />
-</video>
-
 
 ======
 
@@ -34,12 +28,6 @@ WpsOffice-2019(2).png
  
  <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/blob/master/extras/office/traduzir-PT_PT.sh && sudo bash traduzir-PT_PT.sh 
 </code> 
-
-<H5>[ CLICA EM CIMA DA IMAGEM PARA VERES O TUTORIAL ]</H5>
-<video autoplay="autoplay" loop="loop" width="400" height="300">
-<source src="https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/Lingua_PT/Tutorial_Instala%C3%A7%C3%A3o_PT.gif" type="video/mp4" />
-<img src="https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/Lingua_PT/Tutorial_Instala%C3%A7%C3%A3o_PT.gif" width="949" height="500" />
-</video>
 
    
 ======
