@@ -1,5 +1,48 @@
 <PISI>
     <Package>
+        <Name>optimizer</Name>
+        <Summary xml:lang="en">Find out what&apos;s eating up your system resources and delete unnecessary files from your disk.</Summary>
+        <Description xml:lang="en">Find out what&apos;s eating up your system resources and delete unnecessary files from your disk.</Description>
+        <PartOf>tools</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="40">libcairo</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="13">libgtop</Dependency>
+            <Dependency releaseFrom="13">granite</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="48">glib2</Dependency>
+            <Dependency releaseFrom="15">libwnck</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-04-03</Date>
+                <Version>1.1.0</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>340060</InstalledSize>
+        <PackageSize>79137</PackageSize>
+        <PackageHash>74156f234abf18e284dd28b51ac743baeb196567</PackageHash>
+        <PackageURI>optimizer-1.1.0-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>optimizer</Name>
+            <Packager>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>budgie-browserprofile-applet</Name>
         <Summary xml:lang="en">Budgie applet to manage browser profiles</Summary>
         <Description xml:lang="en">Manage items in your trash bin right from the Budgie panel.</Description>
