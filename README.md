@@ -20,7 +20,7 @@ Solus Personal Repo
 ## And now how can i install the software of this Repository?
 
 'check the Solus Software Center or you can install via terminal - check below the software that exists in this Repository'
-
+Find out what's eating up your system resources and delete unnecessary files from your disk.
 ## Removing the Repository
 
 `sudo eopkg remove-repo SolusPT`
@@ -37,7 +37,7 @@ Make a package request at <http://dev.getsol.us/>
 ## Packages list
 
 
-| Package name| Description |Year|
+| Package name| Description |
 | --- | --- | --- |
 | budgie-browserprofile-applet | Applet that lets you use more than one profile in chrome/chromium based browsers |
 | budgie-cpufreq-applet | Applet that lets you see/change the frequency of your cpu
