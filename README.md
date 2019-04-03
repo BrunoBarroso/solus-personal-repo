@@ -37,8 +37,8 @@ Make a package request at <http://dev.getsol.us/>
 ## Packages list
 
 
-| Package name| Description ||
-| --- | --- ||
+| Package name| Description | --- |
+| --- | --- | --- |
 | budgie-browserprofile-applet | Applet that lets you use more than one profile in chrome/chromium based browsers
 | budgie-cpufreq-applet | Applet that lets you see/change the frequency of your cpu
 | budgie-trash-applet   | Applet like the name says, shows a trash button where its possible to restore/delete your trash
