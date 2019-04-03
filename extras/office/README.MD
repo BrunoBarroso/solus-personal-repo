@@ -7,8 +7,7 @@
 ## Wps-Office 2019 Version Instalation on Solus [NEW VERSION - v11.1.0.8372]
 
 
-<code class="language-bash hljs">sudo eopkg bi --ignore-safety https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/pspec.xml
- sudo eopkg it wps-office*.eopkg;sudo rm wps-office*.eopkg
+ <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/install-wpsoffice.sh && sudo bash install-wpsoffice.sh
 </code>
 
  
@@ -16,7 +15,7 @@
 
 ## Wps-Office POST-INSTALL [ TRADUZIR EM PORTUGUÊS-BRASILEIRO ]
  
- <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/Lingua_BR/traduzir.sh && sudo bash traduzir.sh
+ <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/traduzir_PT_BR.sh && sudo bash traduzir_PT_BR.sh
 </code>
  
  <H5>[ CLICA EM CIMA DA IMAGEM PARA VERES O TUTORIAL ]</H5>
@@ -30,7 +29,7 @@
 
 ## Wps-Office POST-INSTALL [ TRADUZIR EM PORTUGUÊS-PORTUGAL ]
  
- <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-extra-repo/raw/master/office/wps-office/Lingua_PT/traduzir.sh && sudo bash traduzir.sh
+ <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/blob/master/extras/office/traduzir-PT_PT.sh && sudo bash traduzir-PT_PT.sh 
 </code> 
 
 <H5>[ CLICA EM CIMA DA IMAGEM PARA VERES O TUTORIAL ]</H5>
