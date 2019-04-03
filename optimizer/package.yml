@@ -1,0 +1,22 @@
+name       : optimizer
+version    : 1.1.0
+release    : 1
+source     :
+    - https://github.com/hannesschulze/optimizer/archive/1.1.0.tar.gz : 25195445ee1d0e8f6ced9bcead93a07546267037a6607e30cd0edd8f300e2671
+license    : GPL-3.0-or-later
+component  : tools
+summary    : Find out what's eating up your system resources and delete unnecessary files from your disk.
+description: |
+    Find out what's eating up your system resources and delete unnecessary files from your disk.
+builddeps  :
+    - pkgconfig(libwnck-3.0)
+    - vala
+    - pkgconfig(gtk+-3.0)
+    - pkgconfig(libgtop-2.0)
+    - pkgconfig(granite)
+setup      : |
+    %meson_configure
+build      : |
+    %meson_build
+install    : |
+    %meson_install
