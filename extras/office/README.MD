@@ -1,5 +1,5 @@
 <h2>WPS OFFICE 2019 v11.1.0.8372</h2>
-<img src=https://www.downloadsoft.net/wp-content/uploads/2018/02/WPS-Office-10.2-Free-1-700x335.jpg />
+<img src=https://www.downloadsoft.net/wp-content/uploads/2018/02/WPS-Office-10.2-Free-1-700x335.jpg width="949" height="500"/>
 
 
 ======
