@@ -1,4 +1,4 @@
-<img src="https://github.com/Christoph3PT/solus-personal-repo/edit/master/extras/office/WpsOffice-2019(1).png" width="949" height="500" />
+<img src="https://github.com/Christoph3PT/solus-personal-repo/edit/master/extras/office/WpsOffice-2019(1).png" width="600" height="500" />
 
 
 ======
