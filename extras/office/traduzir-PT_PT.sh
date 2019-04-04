@@ -16,7 +16,7 @@ sudo rm pt_PT_mui.tar*.*
 wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/pt_PT_mui.tar.xz
 sudo tar xvf pt_PT_mui.tar.xz -C /opt/kingsoft/wps-office/office6/mui/
 sudo rm pt_PT_mui.tar.xz
-echo "****************** Interface em PT_BR instalada no seu sistema ****************"
+echo "****************** Interface em PT_PT instalada no seu sistema ****************"
 sleep 2
 echo "************ Iremos instalar agora o corrector ortográfico em PT_PT ***********"
 sleep 2
