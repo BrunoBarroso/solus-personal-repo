@@ -26,7 +26,7 @@
 
 ## Wps-Office POST-INSTALL [ TRADUZIR EM PORTUGUÊS-PORTUGAL ]
  
- <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/blob/master/extras/office/traduzir-PT_PT.sh && sudo bash traduzir-PT_PT.sh 
+ <code class="language-bash hljs">wget https://github.com/Christoph3PT/solus-personal-repo/raw/master/extras/office/traduzir-PT_PT.sh && sudo bash traduzir-PT_PT.sh 
 </code> 
 
    
