@@ -1,5 +1,56 @@
 <PISI>
     <Package>
+        <Name>code</Name>
+        <Summary xml:lang="en">Code editor designed for elementary OS</Summary>
+        <Description xml:lang="en">Code editor designed for elementary OS</Description>
+        <PartOf>office</PartOf>
+        <License>GPL-3.0-or-later</License>
+        <RuntimeDependencies>
+            <Dependency releaseFrom="5">zeitgeist</Dependency>
+            <Dependency releaseFrom="59">libwebkit-gtk</Dependency>
+            <Dependency releaseFrom="5">gtkspell3</Dependency>
+            <Dependency releaseFrom="30">libvala</Dependency>
+            <Dependency releaseFrom="11">libgee</Dependency>
+            <Dependency releaseFrom="29">pango</Dependency>
+            <Dependency releaseFrom="81">libgtk-3</Dependency>
+            <Dependency releaseFrom="22">libsoup</Dependency>
+            <Dependency releaseFrom="23">libvte</Dependency>
+            <Dependency releaseFrom="26">libgit2-glib</Dependency>
+            <Dependency releaseFrom="18">libgtksourceview</Dependency>
+            <Dependency releaseFrom="2">editorconfig-core-c</Dependency>
+            <Dependency releaseFrom="54">glibc</Dependency>
+            <Dependency releaseFrom="33">fontconfig</Dependency>
+            <Dependency releaseFrom="15">libpeas</Dependency>
+            <Dependency releaseFrom="13">granite</Dependency>
+            <Dependency releaseFrom="48">glib2</Dependency>
+        </RuntimeDependencies>
+        <History>
+            <Update release="1">
+                <Date>2019-04-06</Date>
+                <Version>3.1.1</Version>
+                <Comment>Packaging update</Comment>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
+            </Update>
+        </History>
+        <BuildHost>solus</BuildHost>
+        <Distribution>Solus</Distribution>
+        <DistributionRelease>1</DistributionRelease>
+        <Architecture>x86_64</Architecture>
+        <InstalledSize>2213668</InstalledSize>
+        <PackageSize>472289</PackageSize>
+        <PackageHash>025ab0a8b0f88249a10cdc4ea9b945905581d5d6</PackageHash>
+        <PackageURI>code-3.1.1-1-1-x86_64.eopkg</PackageURI>
+        <PackageFormat>1.2</PackageFormat>
+        <Source>
+            <Name>code</Name>
+            <Packager>
+                <Name>Christophe Silva</Name>
+                <Email>Christophesilva@tutamail.com</Email>
+            </Packager>
+        </Source>
+    </Package>
+    <Package>
         <Name>optimizer</Name>
         <Summary xml:lang="en">Find out what&apos;s eating up your system resources and delete unnecessary files from your disk.</Summary>
         <Description xml:lang="en">Find out what&apos;s eating up your system resources and delete unnecessary files from your disk.</Description>
